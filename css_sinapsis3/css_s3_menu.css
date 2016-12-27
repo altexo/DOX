@@ -1,0 +1,44 @@
+@charset "windows-1258";
+/* CSS Document */
+
+		#menumg{
+			-moz-border-radius:5px;
+			-webkit-border-radius:5px;
+			border-radius:5px;
+			-webkit-box-shadow:1px 1px 3px #888;
+			-moz-box-shadow:1px 1px 3px #888;
+		}
+		#menumg li{border-bottom:1px solid #FFF;}
+		#menumg ul li, #menumg li:last-child{border:none}	
+		.liga_mg{
+			display:block;
+			color: #FFF;
+			text-decoration:none;
+			font-family:'Helvetica', Arial, sans-serif;
+			font-size:14px;
+			padding:3px 5px;
+			text-shadow:1px 1px 1px #325179;
+		}
+		#menumg .liga_mg:hover{
+			color:#F9B855;
+			-webkit-transition: color 0.2s linear;
+		}
+		#menumg ul .liga_mg{
+	background-color: #39F;
+}
+		#menumg ul .liga_mg:hover{
+	background-color:#FFF;
+	color: #339;
+	text-shadow:none;
+	-webkit-transition: color, background-color 0.2s linear;
+		}
+		ul{
+	display:block;
+	background-color: #309;
+	margin:0;
+	padding:0;
+	width:170px;
+	list-style:none;
+		}
+		#menumg ul{background-color:#6594D1;}
+		#menumg li ul {display:none;}

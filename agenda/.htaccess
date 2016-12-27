@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^agenda\.dox\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.agenda\.dox\.mx$
+RewriteRule ^/?$ "http\:\/\/www\.dox\.mx\/calendar\/a\/index\.php" [R=301,L]
+

@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td (línea 1)
+
+{
+
+margin-top: 0pt;
+margin-right: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+padding-top: 0pt;
+padding-right: 0pt;
+padding-bottom: 0pt;
+padding-left: 0pt;
+border-top-width: 0pt;
+border-right-width-value: 0pt;
+border-right-width-ltr-source: physical;
+border-right-width-rtl-source: physical;
+border-bottom-width: 0pt;
+border-left-width-value: 0pt;
+border-left-width-ltr-source: physical;
+border-left-width-rtl-source: physical;
+border-top-style: none;
+border-right-style-value: none;
+border-right-style-ltr-source: physical;
+border-right-style-rtl-source: physical;
+border-bottom-style: none;
+border-left-style-value: none;
+border-left-style-ltr-source: physical;
+border-left-style-rtl-source: physical;
+border-top-color: -moz-use-text-color;
+border-right-color-value: -moz-use-text-color;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+border-bottom-color: -moz-use-text-color;
+border-left-color-value: -moz-use-text-color;
+border-left-color-ltr-source: physical;
+border-left-color-rtl-source: physical;
+outline-width: 0pt;
+outline-style: none;
+outline-color: -moz-use-text-color;
+background-color: transparent;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+
+}
+
+html , body {
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat;
+	height: 100%;
+	background-color: #CCC;
+}
+#contenedor {
+	width: 960px;
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: auto;
+	padding-bottom: 30px;
+
+}
+#encabezado {
+	height: 200px;
+	width: 960px;
+	float: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #93A08F;
+	background-color: #54BD3D;
+	background-image: url(../img_sinapsis3/Sinapsis_activa.jpg);
+	background-repeat: no-repeat;
+}
+#menu {
+	width: 180px;
+	float: left;
+	clear: right;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 10px;
+	background-color: #FFF;
+}
+#interfaz {
+	width: 735px;
+	float: left;
+	padding-top: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	background-color: #FFF;
+	height: auto;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #333;
+}
+#encabezado1 {
+	background-image: url(../img_sinapsis3/degra1.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #FF9312;
+	border-left-color: #FF9312;
+	border-bottom-style: none;
+}
+
+#logo {
+	height: 100px;
+	width: 200px;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	font-size: 18px;
+	letter-spacing: -1px;
+	font-style: normal;
+	margin-top: 0px;
+	margin-left: 5px;
+	/*background-image: url(../img_sinapsis3/logo_mg_s.jpg);*/
+	background-image:url(../img_sinapsis3/Sinapsis_activa.jpg);
+	color: #FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: none;
+}
+.boton_encabezado {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	background-color: #69F;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFF;
+	letter-spacing: -1px;
+	margin-right: 3px;
+	margin-top: 24px;
+	border: 1px double #FFF;
+}
+.boton_encabezado:hover {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 30px;
+	text-decoration: none;
+	height: 30px;
+	width: 150px;
+	background-color: #F90;
+	text-align: center;
+	vertical-align: middle;
+	color: #000;
+	letter-spacing: -1px;
+	border-top-style: double;
+	border-right-style: double;
+	border-bottom-style: double;
+	border-left-style: double;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	margin-right: 3px;
+	margin-top: 24px;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.elemento {
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	clear: left;
+}
+.registro_tit {
+	display: block;
+	float:left;
+	height:40px;
+	line-height: 40px;
+	clear: right;
+}
+.posicion_elem_tit {
+	float: left;
+	width: 290px;
+	height: 40px;
+}

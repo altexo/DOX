@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce DineroMail Payment Gateway v1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-03-13 11:50:29+0000\n"
+"Last-Translator: Bee\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: index.php:36
+#: index.php:156
+#@ bee_dineromail
+msgid "DineroMail"
+msgstr "DineroMail"
+
+#: index.php:106
+#@ bee_dineromail
+msgid "General settings"
+msgstr "Configuraciones generales"
+
+#: index.php:110
+#@ bee_dineromail
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: index.php:123
+#@ bee_dineromail
+msgid "Merchant ID"
+msgstr "ID Cliente"
+
+#: index.php:148
+#@ bee_dineromail
+msgid "Seller name"
+msgstr "Nombre del vendedor"
+
+#: index.php:150
+#@ bee_dineromail
+msgid "Name of the seller or legend that the seller wants to display instead of their email."
+msgstr "Nombre del vendedor o lo que desee mostrar en reemplazo del email de la cuenta en DineroMail."
+
+#: index.php:155
+#@ bee_dineromail
+msgid "This controls the title which the user sees during checkout."
+msgstr "Es el título que ve el cliente al momento de comprar."
+
+#: index.php:161
+#@ bee_dineromail
+msgid "This is the description which the user sees during checkout."
+msgstr "Es la descripción que ve el cliente al momento de comprar."
+
+#: index.php:133
+#@ bee_dineromail
+msgid "Country"
+msgstr "País"
+
+#: index.php:135
+#@ bee_dineromail
+msgid "Argentina"
+msgstr "Argentina"
+
+#: index.php:138
+#@ bee_dineromail
+msgid "Language"
+msgstr "Idioma"
+
+#: index.php:140
+#@ bee_dineromail
+msgid "Spanish"
+msgstr "Español"
+
+#: index.php:140
+#@ bee_dineromail
+msgid "Portuguese"
+msgstr "Portugués"
+
+#: index.php:140
+#@ bee_dineromail
+msgid "English"
+msgstr "Inglés"
+
+#: index.php:143
+#@ bee_dineromail
+msgid "Currency"
+msgstr "Moneda"
+
+#: index.php:168
+#@ bee_dineromail
+msgid "Company logo URL"
+msgstr "URL del logotipo del vendedor"
+
+#: index.php:170
+#@ bee_dineromail
+msgid "If you want to align on the left, the size should be 100x200 pixels. If you want to use the full width must be of 760x100 pixels. For both cases, the image may be JPG or GIF."
+msgstr "Si quiere alinearlo a la izquierda, el tamaño debe ser de 100x200 píxeles. Si desea utilizar todo el ancho, la imagen debe ser de 760x100 píxeles. Para ambos casos, el tipo de archivo debe ser JPG o GIF."
+
+#: index.php:173
+#@ bee_dineromail
+msgid "Company logo position"
+msgstr "Posición del logo del vendedor"
+
+#: index.php:175
+#@ bee_dineromail
+msgid "Upper left"
+msgstr "Arriba a la izquierda"
+
+#: index.php:175
+#@ bee_dineromail
+msgid "Full width"
+msgstr "Todo el ancho"
+
+#: index.php:178
+#@ bee_dineromail
+msgid "Color of links, total, subtotal and titles arrows"
+msgstr "Color de los enlaces, total, subtotal y las flechas de los títulos."
+
+#: index.php:182
+#@ bee_dineromail
+msgid "Color of page font"
+msgstr "Color de la fuente"
+
+#: index.php:186
+#@ bee_dineromail
+msgid "Color of table borders and buttons"
+msgstr "Color de los bordes de las tablas y botones"
+
+#: index.php:190
+#@ bee_dineromail
+msgid "Background color of the buttons"
+msgstr "Color de fondo de los botones"
+
+#: index.php:194
+#@ bee_dineromail
+msgid "Steps background and title background of detail color"
+msgstr "Color de fondo de los pasos y del título del detalle"
+
+#: index.php:198
+#@ bee_dineromail
+msgid "Steps background color (hover state)"
+msgstr "Color de fondo de los pasos (cuando el cursor está sobre el paso)"
+
+#: index.php:212
+#@ bee_dineromail
+msgid "DineroMail Payment Gateway"
+msgstr "Pasarela de pago DineroMail"
+
+#: index.php:250
+#@ bee_dineromail
+msgid "Thank you for your order, please click the button below to pay with DineroMail."
+msgstr "Gracias por su pedido. Por favor, proceda a pagar con DineroMail haciendo clic en el botón de abajo."
+
+#: index.php:280
+#@ bee_dineromail
+msgid "Order"
+msgstr "Pedido"
+
+#: index.php:315
+#@ bee_dineromail
+msgid "Pay via DineroMail"
+msgstr "Pagar con DineroMail"
+
+#: index.php:315
+#@ bee_dineromail
+msgid "Cancel order & restore cart"
+msgstr "Cancelar el pedido y restaurar el carro"
+
+#: index.php:128
+#@ bee_dineromail
+msgid "IPN password"
+msgstr "Contraseña para IPN"
+
+#: index.php:330
+#@ bee_dineromail
+msgid "DineroMail IPN Request Failure"
+msgstr "Solicitud de IPN de DineroMail erróneo"
+
+#: index.php:469
+#@ bee_dineromail
+msgid "Payment canceled."
+msgstr "Pago cancelado."
+
+#: index.php:454
+#@ bee_dineromail
+msgid "Payment completed."
+msgstr "Pago completado."
+
+#: index.php:116
+#@ bee_dineromail
+msgid "Debug log"
+msgstr "Registro"
+
+#: index.php:145
+#@ bee_dineromail
+msgid "Argentine Peso"
+msgstr "Peso argentino"
+
+#: index.php:145
+#@ bee_dineromail
+msgid "Mexican Peso"
+msgstr "Peso mexicano"
+
+#: index.php:145
+#@ bee_dineromail
+msgid "Chilean Peso"
+msgstr "Peso chileno"
+
+#: index.php:145
+#@ bee_dineromail
+msgid "US Dollar"
+msgstr "Dólar estadounidense"
+
+#: index.php:145
+#@ bee_dineromail
+msgid "Brazilian Real"
+msgstr "Real brasilero"
+
+#: index.php:440
+#@ bee_dineromail
+msgid "Payment on-hold."
+msgstr "Pago en espera."
+
+#: index.php:221
+#@ bee_dineromail
+msgid "Gateway disabled"
+msgstr "Pasarela de pago deshabilitada"
+
+#: index.php:221
+#@ bee_dineromail
+msgid "DineroMail does not support your store currency."
+msgstr "DineroMail no soporta la moneda seleccionada para su tienda."
+
+#: index.php:214
+#@ bee_dineromail
+msgid "Allows payments by DineroMail (Visa, MasterCard, American Express, PagoFacil, RapiPago)."
+msgstr "Permite el pago mediante DineroMail (Visa, MasterCard, American Express, PagoFacil, RapiPago)."
+
+#: index.php:135
+#@ bee_dineromail
+msgid "Brazil"
+msgstr "Brasil"
+
+#: index.php:135
+#@ bee_dineromail
+msgid "Chile"
+msgstr "Chile"
+
+#: index.php:135
+#@ bee_dineromail
+msgid "Mexico"
+msgstr "México"
+
+#: index.php:153
+#@ bee_dineromail
+msgid "DineroMail button title"
+msgstr "Título del botón de DineroMail"
+
+#: index.php:159
+#@ bee_dineromail
+msgid "DineroMail button message"
+msgstr "Mensaje del botón de DineroMail"
+
+#: index.php:164
+#@ bee_dineromail
+msgid "Design settings (all are optional)"
+msgstr "Configuraciones de diseño (todas son opcionales)"
+
+#: index.php:216
+#@ bee_dineromail
+msgid "The fields with the * are required."
+msgstr "Los campos con el * son requeridos."
+
+#: index.php:504
+#@ bee_dineromail
+msgid "Settings"
+msgstr "Ajustes"
+
+#: index.php:125
+#@ bee_dineromail
+msgid "DineroMail account number without slash and the last digit."
+msgstr "El número de cuenta de DineroMail, sin la barra ni el último dígito."
+
+#: index.php:120
+#@ bee_dineromail
+msgid "Log DineroMail IPN events. File location in <code>plugins/woocommerce/logs</code> folder."
+msgstr "Registrar los eventos de DineroMail. El archivo se encuentra ubicado en la carpeta <code>plugins/woocommerce/logs</code>."
+
+#: index.php:130
+#@ bee_dineromail
+msgid "This password must be the same as the settings in DineroMail. Log in to DineroMail / My Account / User Data / Set IPN​​.<br />There, if you are using WooCommerce 2, complete the URL with the following format"
+msgstr "Esta clave debe ser la misma que la configuración IPN en DineroMail. Ingresar a DineroMail / Mi Cuenta / Datos del Usuario / Configurar IPN.<br />Allí, si usted utiliza WooCommerce 2, complete la URL con el siguiente formato"
+

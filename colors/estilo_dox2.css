@@ -1,0 +1,64 @@
+a img, img a
+{
+	border:0px;
+}
+
+a
+{
+	text-decoration:none;
+	font-size:14px;
+	color: #0080C0;
+}
+
+
+a:hover
+{
+	text-decoration:none;
+	font-size:14px;
+	color:#06C;
+}
+
+.citas a:hover
+{
+	color:#09F;
+	text-decoration: underline;
+	}
+
+@font-face
+{
+	font-family:Eurostyle;
+	src:url('../fuentes/Eurostile.eot');
+}
+
+@font-face
+{
+	font-family:Eurostyle;
+	src:url('../fuentes/Eurostile.ttf');
+}
+
+@font-face
+{
+	font-family:Eurostyle;
+	src:url('../fuentes/Eurostile Extended.ttf');
+	font-weight:bold;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999999;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999999;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+
+#myModal img {
+	float:none !important;
+}
+

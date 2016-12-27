@@ -1,0 +1,11 @@
+********* USANDO substring **********
+ 
+4 - 7 : MES LETRA ... 3 LETRAS *
+
+0 - 3 : DIAS LETRA ... 3 LETRAS *
+
+8 - 10 : DIAS NUMERO ... 2LETRAS *
+
+11 - 15 : AÑO NUMERO ... 4 LETRAS *
+
+16 - 24 : HORA NUMERO .... 6 NUMEROS + 2 DE : *

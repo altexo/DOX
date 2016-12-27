@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="colors/estilo_dox1.css"/>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="js/slides.min.jquery.js"></script>
+</head>
+
+<body>
+<div id="mislider">
+          <div id="slide">
+            <div class="slides_container">
+
+		
+						<div><img src="visual/portada2.jpg"></div>
+                    <div><img src="visual/portada1.jpg"></div>
+                    <div><img src="visual/portada3.jpg"></div>
+		
+		
+		</div></div></div>
+             <script>
+            $(function(){
+                $("#slide").slides({
+ 
+ preload: true,
+ preloadImage: '/imagenes/slider/loading.gif',
+play: 5000,
+				pause: 2500,
+				hoverPause: false
+});
+});
+        </script>
+</body>
+</html>

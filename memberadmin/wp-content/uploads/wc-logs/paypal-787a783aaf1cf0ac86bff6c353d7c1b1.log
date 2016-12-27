@@ -1,0 +1,423 @@
+03-12-2015 @ 00:36:55 - Subscription Transaction Type: subscr_signup
+03-12-2015 @ 00:36:55 - Subscription Transaction Type: subscr_payment
+03-12-2015 @ 00:36:55 - Subscription transaction details: Array
+(
+    [transaction_subject] => Anual
+    [payment_date] => 17:37:12 Mar 11, 2015 PDT
+    [txn_type] => subscr_payment
+    [subscr_id] => I-YKUKE61KRYGM
+    [last_name] => Carranza Torrontegui
+    [residence_country] => MX
+    [item_name] => Anual
+    [payment_gross] => 
+    [mc_currency] => MXN
+    [business] => guillermo.silva@dox.mx
+    [payment_type] => instant
+    [protection_eligibility] => Ineligible
+    [verify_sign] => AFtsM-CGkVKKMjvtbp.e4mhMdQTuAnqz9nrOZgnT8iyBRcUbR.aWg7fx
+    [payer_status] => unverified
+    [payer_email] => guillermo.cartor@hotmail.com
+    [txn_id] => 0GU633140T8616104
+    [receiver_email] => guillermo.silva@dox.mx
+    [first_name] => Guillermo
+    [invoice] => DOX-287
+    [payer_id] => 88N4CP39744N8
+    [receiver_id] => TAQ55T55LNPZ4
+    [payment_status] => Completed
+    [payment_fee] => 
+    [mc_fee] => 4.20
+    [mc_gross] => 5.00
+    [custom] => a:2:{i:0;i:287;i:1;s:22:"wc_order_5500dd9f8f51f";}
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 8964d429881b
+)
+
+03-12-2015 @ 00:36:55 - Subscription transaction details: Array
+(
+    [txn_type] => subscr_signup
+    [subscr_id] => I-YKUKE61KRYGM
+    [last_name] => Carranza Torrontegui
+    [residence_country] => MX
+    [mc_currency] => MXN
+    [item_name] => Anual
+    [business] => guillermo.silva@dox.mx
+    [recurring] => 0
+    [verify_sign] => A1RfDGRMAI2dHrDgJ93qfBfz-MVxA35iFGreiudfMk7qsPCZAjt6zR9A
+    [payer_status] => unverified
+    [payer_email] => guillermo.cartor@hotmail.com
+    [first_name] => Guillermo
+    [receiver_email] => guillermo.silva@dox.mx
+    [payer_id] => 88N4CP39744N8
+    [invoice] => DOX-287
+    [reattempt] => 1
+    [subscr_date] => 17:37:11 Mar 11, 2015 PDT
+    [custom] => a:2:{i:0;i:287;i:1;s:22:"wc_order_5500dd9f8f51f";}
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [period3] => 1 Y
+    [mc_amount3] => 5.00
+    [ipn_track_id] => 8964d429881b
+)
+
+03-12-2015 @ 00:36:56 - Subscription Transaction Type: subscr_eot
+03-12-2015 @ 00:36:56 - Subscription transaction details: Array
+(
+    [txn_type] => subscr_eot
+    [subscr_id] => I-YKUKE61KRYGM
+    [last_name] => Carranza Torrontegui
+    [residence_country] => MX
+    [item_name] => Anual
+    [mc_currency] => MXN
+    [business] => guillermo.silva@dox.mx
+    [verify_sign] => AChhyzCtnICZ0Iok8zCPhQzDmoy3AU7MS.kQ.0Eb64gJrDmL7olBtXyY
+    [payer_status] => unverified
+    [payer_email] => guillermo.cartor@hotmail.com
+    [first_name] => Guillermo
+    [receiver_email] => guillermo.silva@dox.mx
+    [payer_id] => 88N4CP39744N8
+    [invoice] => DOX-287
+    [custom] => a:2:{i:0;i:287;i:1;s:22:"wc_order_5500dd9f8f51f";}
+    [charset] => windows-1252
+    [notify_version] => 3.8
+    [ipn_track_id] => 8964d429881b
+)
+
+03-12-2015 @ 00:36:56 - IPN EOT request ignored for order 287
+03-12-2015 @ 00:36:57 - IPN subscription sign up completed for order 287
+03-12-2015 @ 00:36:57 - IPN subscription payment completed for order 287
+03-12-2015 @ 02:08:55 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+03-12-2015 @ 02:09:47 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+03-12-2015 @ 02:09:48 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+04-12-2015 @ 09:10:18 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+04-12-2015 @ 09:10:19 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+05-16-2015 @ 07:27:10 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+05-16-2015 @ 07:27:11 - Calling PayPal to change_subscription_status for  has Failed: Profile Id is missing from the request
+11-21-2015 @ 00:23:30 - Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.0.6 (WooCommerce/2.4.10; WordPress/4.3.1)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => ***************************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [PAYMENTREQUEST_0_AMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with Dox.mx/memberadmin
+    [RETURNURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [CANCELURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [BRANDNAME] => Dox.mx/memberadmin
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 0.49923s
+)
+
+11-21-2015 @ 00:23:30 - Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Array
+        (
+            [date] => Sat, 21 Nov 2015 00:23:59 GMT
+            [server] => Apache
+            [x-paypal-operation-name] => SetExpressCheckout
+            [x-paypal-api-rc] => 11452
+            [connection] => close
+            [content-length] => 293
+            [paypal-debug-id] => df7951f0d5281
+            [set-cookie] => Array
+                (
+                    [0] => X-PP-SILOVER=name%3DLIVE11.APIT.1%26silo_version%3D880%26app%3Dappdispatcher_apit%26TIME%3D2679721814; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                )
+
+            [content-type] => text/plain; charset=utf-8
+        )
+
+    [body] => Array
+(
+    [TIMESTAMP] => 2015-11-21T00:24:00Z
+    [CORRELATIONID] => df7951f0d5281
+    [ACK] => Failure
+    [VERSION] => 124
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 11452
+    [L_SHORTMESSAGE0] => Merchant not enabled for reference transactions
+    [L_LONGMESSAGE0] => Merchant not enabled for reference transactions
+    [L_SEVERITYCODE0] => Error
+)
+
+)
+
+11-21-2015 @ 00:24:05 - Generating payment form for order 334. Notify URL: http://dox.mx/memberadmin/?wc-api=WC_Gateway_Paypal
+11-30-2015 @ 17:53:21 - Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.0.6 (WooCommerce/2.4.10; WordPress/4.3.1)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => ***************************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [PAYMENTREQUEST_0_AMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with Dox.mx/memberadmin
+    [RETURNURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [CANCELURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [BRANDNAME] => Dox.mx/memberadmin
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 0.41437s
+)
+
+11-30-2015 @ 17:53:21 - Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Array
+        (
+            [date] => Mon, 30 Nov 2015 17:54:05 GMT
+            [server] => Apache
+            [x-paypal-operation-name] => SetExpressCheckout
+            [x-paypal-api-rc] => 11452
+            [connection] => close
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [content-length] => 293
+            [paypal-debug-id] => 604790fa2a7ce
+            [set-cookie] => Array
+                (
+                    [0] => X-PP-SILOVER=name%3DLIVE9.APIT.1%26silo_version%3D880%26app%3Dappdispatcher_apit%26TIME%3D1032674390; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                )
+
+            [content-type] => text/plain; charset=utf-8
+        )
+
+    [body] => Array
+(
+    [TIMESTAMP] => 2015-11-30T17:54:05Z
+    [CORRELATIONID] => 604790fa2a7ce
+    [ACK] => Failure
+    [VERSION] => 124
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 11452
+    [L_SHORTMESSAGE0] => Merchant not enabled for reference transactions
+    [L_LONGMESSAGE0] => Merchant not enabled for reference transactions
+    [L_SEVERITYCODE0] => Error
+)
+
+)
+
+11-30-2015 @ 17:53:35 - Generating payment form for order 337. Notify URL: http://dox.mx/memberadmin/?wc-api=WC_Gateway_Paypal
+12-05-2015 @ 01:23:33 - Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.0.6 (WooCommerce/2.4.10; WordPress/4.3.1)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => ***************************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [PAYMENTREQUEST_0_AMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with Dox.mx/memberadmin
+    [RETURNURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [CANCELURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [BRANDNAME] => Dox.mx/memberadmin
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 0.48928s
+)
+
+12-05-2015 @ 01:23:33 - Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Array
+        (
+            [date] => Sat, 05 Dec 2015 01:24:23 GMT
+            [server] => Apache
+            [x-paypal-operation-name] => SetExpressCheckout
+            [x-paypal-api-rc] => 11452
+            [connection] => close
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [content-length] => 293
+            [paypal-debug-id] => 9ccbe1c6c0651
+            [set-cookie] => Array
+                (
+                    [0] => X-PP-SILOVER=name%3DLIVE6.APIT.1%26silo_version%3D880%26app%3Dappdispatcher_apit%26TIME%3D3342623318; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                )
+
+            [content-type] => text/plain; charset=utf-8
+        )
+
+    [body] => Array
+(
+    [TIMESTAMP] => 2015-12-05T01:24:23Z
+    [CORRELATIONID] => 9ccbe1c6c0651
+    [ACK] => Failure
+    [VERSION] => 124
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 11452
+    [L_SHORTMESSAGE0] => Merchant not enabled for reference transactions
+    [L_LONGMESSAGE0] => Merchant not enabled for reference transactions
+    [L_SEVERITYCODE0] => Error
+)
+
+)
+
+12-08-2015 @ 16:26:15 - Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.0.6 (WooCommerce/2.4.10; WordPress/4.3.1)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => ***************************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [PAYMENTREQUEST_0_AMT] => 0.00
+    [PAYMENTREQUEST_0_ITEMAMT] => 0.00
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+    [PAYMENTREQUEST_0_TAXAMT] => 0.00
+    [PAYMENTREQUEST_0_CURRENCYCODE] => MXN
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with Dox.mx/memberadmin
+    [RETURNURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [CANCELURL] => http://dox.mx/memberadmin/?wc-api=wcs_paypal&action=reference_transaction_account_check
+    [BRANDNAME] => Dox.mx/memberadmin
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 0.71807s
+)
+
+12-08-2015 @ 16:26:15 - Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Array
+        (
+            [date] => Tue, 08 Dec 2015 16:27:11 GMT
+            [server] => Apache
+            [x-paypal-operation-name] => SetExpressCheckout
+            [x-paypal-api-rc] => 11452
+            [connection] => close
+            [cache-control] => Array
+                (
+                    [0] => max-age=0, no-cache, no-store, must-revalidate
+                    [1] => max-age=0, no-cache, no-store, must-revalidate
+                )
+
+            [pragma] => Array
+                (
+                    [0] => no-cache
+                    [1] => no-cache
+                )
+
+            [content-length] => 292
+            [paypal-debug-id] => 9ea6d6cad7bf
+            [set-cookie] => Array
+                (
+                    [0] => X-PP-SILOVER=name%3DLIVE6.APIT.1%26silo_version%3D880%26app%3Dappdispatcher_apit%26TIME%3D3741607766; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                )
+
+            [content-type] => text/plain; charset=utf-8
+        )
+
+    [body] => Array
+(
+    [TIMESTAMP] => 2015-12-08T16:27:12Z
+    [CORRELATIONID] => 9ea6d6cad7bf
+    [ACK] => Failure
+    [VERSION] => 124
+    [BUILD] => 18308778
+    [L_ERRORCODE0] => 11452
+    [L_SHORTMESSAGE0] => Merchant not enabled for reference transactions
+    [L_LONGMESSAGE0] => Merchant not enabled for reference transactions
+    [L_SEVERITYCODE0] => Error
+)
+
+)
+
+12-08-2015 @ 16:26:32 - Generating payment form for order 348. Notify URL: http://dox.mx/memberadmin/?wc-api=WC_Gateway_Paypal
+12-08-2015 @ 17:00:46 - Generating payment form for order 350. Notify URL: http://dox.mx/memberadmin/?wc-api=WC_Gateway_Paypal

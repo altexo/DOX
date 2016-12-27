@@ -1,0 +1,299 @@
+.elemento2 {
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	clear: left;
+}
+.elemento2:hover { 
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	clear: left;
+	background-color:#FFC;
+}
+.link_ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #900;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 15px;
+}
+.link_:hover {
+	text-decoration: underline;
+	color:#780104;
+	background-color:#FFF
+}
+#tabb {
+	clear: both;
+	float: left;
+	width: 735px;
+}
+
+.link_index {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #900;
+	text-decoration: none;
+	font-weight: bold; 
+	
+}
+.link_index:hover {
+	text-decoration: underline;
+}
+
+/*#cmp1
+{
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: auto;
+	width: auto;
+}
+#cmp2
+{
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: auto;
+	width: auto;
+}
+#cmp3
+{
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: auto;
+	width: auto;
+}
+*/
+#f1
+{
+	/*display:none;
+	visibility:hidden;*/
+	text-align: left;
+	height: auto;
+	width: auto;
+}
+.txt1_error {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #360;
+}
+#visto {
+	float: right;
+	width: 190px;
+}
+
+/* CSS para la fechas */
+
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../img/calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
+#clientes_pes {
+	width: 350px;
+	clear: both;
+	float: left;
+	margin-bottom: 8px;
+	margin-top: 11px;
+	cursor: pointer;
+}
+#clientes_pes:hover {
+	text-decoration: underline;
+
+}
+
+#clien1 {
+	height: 160px;
+	width: 98%;
+	float: left;
+	clear: both;
+}
+/*#ven1 {
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: 160px;
+	width: 98%;
+	float: left;
+	clear: both;
+	cursor: pointer;
+}
+#regis {
+	float: left;
+	height: auto;
+	width: 100%;
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	width: 98%;
+	float: left;
+	clear: both;
+	cursor: pointer;
+	
+}
+
+#ven2 {
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: 160px;
+	width: 98%;
+	float: left;
+	clear: both;
+	cursor: pointer;
+}
+#ven3 {
+	display:none;
+	visibility:hidden;
+	text-align: left;
+	height: 160px;
+	width: 98%;
+	float: left;
+	clear: both;
+	cursor: pointer;
+}
+
+*/#NoSession {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #333;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	margin-top: 150px;
+	height: 70px;
+   	padding-top:30px;
+	text-decoration: none;
+	text-align: center;
+}
+#vFisica {
+	line-height: 25px;
+	float: left;
+	height: 25px;
+	width: 180px;
+	margin-bottom: 6px;
+	display: block;
+	background-color: #54BD3D;
+	padding-left: 5px;
+}
+
+
+.suggestionList {
+	margin: 2px;
+	padding: 3px;
+	cursor:pointer;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align: left;
+}
+.suggestionsBox {
+	float:left;
+	clear:left;
+	left: auto;
+	top: auto;
+	width: 450px;
+	background-color: #338313;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 1px dotted;
+	color: #fff;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left:7px;
+	position: absolute;
+	z-index: 1000;
+	height:auto;
+	scrollbar-face-color: 009800;
+	scrollbar-highlight-color: A8D000;
+	scrollbar-3dlight-color: 009800;
+	scrollbar-darkshadow-color: ffffff;
+	scrollbar-shadow-color: 009800;
+	scrollbar-arrow-color: ffffff;
+	scrollbar-track-color: 008000;
+}
+
+.suggestionsBox2 {
+	float:left;
+	clear:left;
+	left: auto;
+	top: auto;
+	width: 50px;
+	background-color: #338313;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 1px dotted;
+	color: #fff;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 470px;
+	padding-left:7px;
+	position: absolute;
+	z-index: 1000;
+	height:auto;
+	scrollbar-face-color: 009800;
+	scrollbar-highlight-color: A8D000;
+	scrollbar-3dlight-color: 009800;
+	scrollbar-darkshadow-color: ffffff;
+	scrollbar-shadow-color: 009800;
+	scrollbar-arrow-color: ffffff;
+	scrollbar-track-color: 008000;
+}
+
+.suggestionsBox3 {
+	float:left;
+	clear:left;
+	left: auto;
+	top: auto;
+	width: 50px;
+	background-color: #338313;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border: 1px dotted;
+	color: #fff;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 552px;
+	padding-left:7px;
+	position: absolute;
+	z-index: 1000;
+	height:auto;
+	scrollbar-face-color: 009800;
+	scrollbar-highlight-color: A8D000;
+	scrollbar-3dlight-color: 009800;
+	scrollbar-darkshadow-color: ffffff;
+	scrollbar-shadow-color: 009800;
+	scrollbar-arrow-color: ffffff;
+	scrollbar-track-color: 008000;
+}
+#errormsj {
+	float: left;
+	width: 260px;
+	margin-left: 15px;
+	height: 23px;
+}

@@ -1,0 +1,88 @@
+.boton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	height: 30px;
+	width: 150px;
+	font-weight: bold;
+}
+.sinap_check {
+	display: block;
+	float: left;
+	height: 40px;
+	width: 20px;
+}
+.nuevo_titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000;
+	height: 30px;
+	width: 500px;
+}
+.titulo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.label1 {
+	display: block;
+	width: 200px;
+	float: left;
+}
+.wrap_categoria {
+	float: left;
+	width: 470px;
+}
+.wrap_categoria1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+.wrap_sublabelcorto {
+	float: left;
+	width: 235px;
+}
+
+.wrap_descripcion {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	clear: left;
+	display: block;
+}
+.caja_html {
+	width: 450px;
+}
+.caja_corta {
+	height: 30px;
+	width: 60px;
+	font-size: 18px;
+}
+.pestana {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	color: #900;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 34px;
+	/*background-image: url(../img_sinapsis3/pestana.jpg);
+	background-repeat: no-repeat;*/
+}
+.mensajepop {
+	background-color: #FFC;
+	border: 1px dotted #063;
+	padding: 10px;
+	width: 190px;
+	margin-left: 20px;
+}
+.cajalargacorta {
+	width: 200px;
+	margin-left: 20px;
+}
+.wrap_sublabelcorto2 {
+	float: left;
+	width: 110px;
+}
+.browse_class {
+	width: 100px;
+}

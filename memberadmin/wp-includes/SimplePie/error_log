@@ -1,0 +1,1 @@
+[25-Nov-2013 18:12:48 America/Los_Angeles] PHP Fatal error:  Class 'SimplePie' not found in /home2/dox/public_html/memberadmin/wp-includes/SimplePie/Core.php on line 55

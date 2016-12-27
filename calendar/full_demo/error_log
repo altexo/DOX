@@ -1,0 +1,6 @@
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home2/dox/public_html/calendar/full_demo/conexion.php on line 5
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home2/dox/public_html/calendar/full_demo/conexion.php on line 7
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'dox'@'localhost' (using password: NO) in /home2/dox/public_html/calendar/full_demo/index.php on line 7
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home2/dox/public_html/calendar/full_demo/index.php on line 7
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home2/dox/public_html/calendar/full_demo/index.php on line 33
+[30-Jul-2012 10:53:34] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home2/dox/public_html/calendar/full_demo/index.php on line 222

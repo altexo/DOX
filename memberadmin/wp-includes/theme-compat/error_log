@@ -1,0 +1,6 @@
+[01-Oct-2013 04:03:25 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/header.php on line 10
+[02-Oct-2013 15:25:40 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/sidebar.php on line 10
+[03-Oct-2013 15:23:57 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/comments.php on line 10
+[08-Oct-2013 09:04:51 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/footer.php on line 10
+[24-Oct-2013 11:51:04 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/comments-popup.php on line 10
+[15-Dec-2013 01:34:44 America/Los_Angeles] PHP Fatal error:  Call to undefined function _deprecated_file() in /home2/dox/public_html/memberadmin/wp-includes/theme-compat/footer.php on line 10

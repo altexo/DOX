@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* RESET */
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+}
+body  { font-family: Calibri; }
+
+a img, :link img, :visited img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol, ul {
+	list-style: none;
+}
+q:before, q:after,
+blockquote:before, blockquote:after {
+	content: "";
+}
+
+#encabezado {
+	height: 80px;
+	background-color: #007dab;
+}
+
+
+/*Aqui van los controles para el menú*/
+#menu {
+	background-color: #ddf0f7;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+}
+#menu .navi {
+	font-size: 14px;
+	display: block;
+	float: left;
+	padding: 10px;
+	color: #069;
+	text-decoration: none;
+	margin-right: 10px;
+	background-color: #addff2;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#menu .navi:hover {
+	
+	padding: 8px;
+	background-color: #addff2;
+	border: 2px solid #007DAB;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*Aqui van los controles para el contenido y pie*/
+
+#contenido {
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #135A75;
+}
+
+#pie {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:30px;
+	width:100%;
+	background:#ddf0f7;
+	padding: 5px;
+}
+
+/* IE 6 */
+* html #pie {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+/*Aqui van los elementos de medico */
+#envoltura {
+	-webkit-border-radius: 20px;
+	border-radius: 10px;
+	border: 2px solid #CCC;
+}
+.envoltura2 {
+	padding:5px
+}
+
+/*  */
+#bnuevo {
+	background-color: #467FBE;
+	height: 35px;
+	width: 100px;
+	display: block;
+	line-height: 35px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+#bnuevo:hover {
+	background-color: #6F9BCC;
+
+}
+
+
+
+.elemento {
+	clear:left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: none;
+	border-bottom-color: #E4E4E4;
+	border-bottom-width: 1px;
+}
+.elemento a {
+	clear:left;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-weight: bold;
+	color: #135A75;
+	line-height: 35px;
+	text-decoration: none;
+}
+.elemento a:hover {
+	clear:left;
+	font-weight: bold;
+	color: #F63;
+	line-height: 35px;
+	text-decoration: none;
+}
+
+
+
+#cabeza {
+	background-color: #E9E9E9;
+	line-height: 35px;
+	height: 35px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ficha1, .ficha2, .ficha3, .ficha4, .ficha5 {
+	height: 35px;
+	line-height:35px;
+	float: left;
+	}
+	
+.ficha1 {
+	width: 25%;
+}
+
+.ficha2 {
+	width: 20%;
+}
+
+.ficha3 {
+	width: 25%;
+}
+
+.ficha4 {
+    width: 20%;
+}
+.ficha5 {
+	width: 10%;
+}
+
+
+/* EFECTOS VISUALES */
+
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}	
+	
+	#screenshot{
+	position:absolute;
+	border:1px solid #ccc;
+	background:#333;
+	padding:5px;
+	display:none;
+	color:#fff;
+	}
